@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="3"
             failures="0"
-            tests="1">
+            tests="2">
 
   <testsuite name="Gohar"
     errors="3" failures="0" hostname="" id="" package="Gohar" skipped="0"
-    tests="1" time="43.01" timestamp="">
+    tests="2" time="60.46" timestamp="">
   
-    <testcase name="Test 2" classname="Gohar" time="43.01" assertions="0">
+    <testcase name="Test 1" classname="Gohar" time="21.88" assertions="0">
+    </testcase>
+  
+    <testcase name="Test 2" classname="Gohar" time="38.58" assertions="0">
     <error message="An error occurred while running .click() command on &lt;body &gt; span &gt; span &gt; div &gt; div &gt; div &gt; ol &gt; li:nth-child(6) &gt; div &gt; div &gt; span&gt;: Timed out while waiting for element &#34;body &gt; span &gt; span &gt; div &gt; div &gt; div &gt; ol &gt; li:nth-child(6) &gt; div &gt; div &gt; span&#34; with &#34;css selector&#34; to be present for 5000 milliseconds." type="error"><![CDATA[
     Error
-    at Object.Test 2 (D:\Github\Assignment-2\Test\Gohar.js:111:18)
+    at Object.Test 2 (D:\Github\Assignment-2\Test\Gohar.js:122:18)
     ]]></error>
     
     </testcase>
@@ -28,11 +31,11 @@
     Error location:
     D:\Github\Assignment-2\Test\Gohar.js:
     ––––––––––––––––––––––––––––––––––––––
-     101 |          browser.click(&#39;#root &gt; div &gt; div &gt; main &gt; div &gt; div &gt; div.css-2mi1c6.eb9z3dt3 &gt; div &gt; div.css-1mjo75b.e17ixpr11 &gt; span&#39;);
-     102 |          browser.setValue(&#39;input[name=name&#39;,&#39;Search1&#39;);
-     103 |          browser.setValue(&#39;input[name=discription&#39;,&#39;this is the discription for test caase&#39;); 
-     104 | 
-     105 |          browser.pause(2000);
+     111 |          browser.click(&#39;#root &gt; div &gt; div &gt; main &gt; div &gt; div &gt; div.css-2mi1c6.eb9z3dt3 &gt; div &gt; div.css-1mjo75b.e17ixpr11 &gt; span&#39;);
+     112 |          browser.setValue(&#39;input[name=name&#39;,&#39;Search1&#39;);
+     113 |          browser.setValue(&#39;input[name=discription&#39;,&#39;this is the discription for test caase&#39;); 
+     114 | 
+     115 |          browser.pause(2000);
     ––––––––––––––––––––––––––––––––––––––
 
  TimeoutError
@@ -43,11 +46,11 @@
     Error location:
     D:\Github\Assignment-2\Test\Gohar.js:
     ––––––––––––––––––––––––––––––––––––––
-     107 |          browser.click(&#39;#QuestionSavedModal &gt; div.ModalBody.px4 &gt; div &gt; div &gt; button.Button.Button--primary&#39;);
-     108 |  
-     109 |          browser.click(&#39;#root &gt; div &gt; header &gt; div &gt; div.css-11x9xqg.e4w71dr2 &gt; div.css-1rsu45y.e4w71dr0 &gt; div &gt; div &gt; button&#39;); 
-     110 |          browser.pause(2000);
-     111 |          browser.click(&#39;body &gt; span &gt; span &gt; div &gt; div &gt; div &gt; ol &gt; li:nth-child(6) &gt; div &gt; div &gt; span&#39;);
+     118 |          browser.click(&#39;#AddToDashSelectDashModal &gt; div.ModalBody.px4 &gt; div &gt; div &gt; div &gt; div.css-umwchj.e1u5yeuo0 &gt; div:nth-child(2) &gt; div&#39;)
+     119 |  
+     120 |          browser.click(&#39;#root &gt; div &gt; header &gt; div &gt; div.css-11x9xqg.e4w71dr2 &gt; div.css-1rsu45y.e4w71dr0 &gt; div &gt; div &gt; button&#39;); 
+     121 |          browser.pause(2000);
+     122 |          browser.click(&#39;body &gt; span &gt; span &gt; div &gt; div &gt; div &gt; ol &gt; li:nth-child(6) &gt; div &gt; div &gt; span&#39;);
     ––––––––––––––––––––––––––––––––––––––
 
  NoSuchElementError
@@ -60,11 +63,11 @@
     Error location:
     D:\Github\Assignment-2\Test\Gohar.js:
     ––––––––––––––––––––––––––––––––––––––
-     109 |          browser.click(&#39;#root &gt; div &gt; header &gt; div &gt; div.css-11x9xqg.e4w71dr2 &gt; div.css-1rsu45y.e4w71dr0 &gt; div &gt; div &gt; button&#39;);
-     110 |          browser.pause(2000);
-     111 |          browser.click(&#39;body &gt; span &gt; span &gt; div &gt; div &gt; div &gt; ol &gt; li:nth-child(6) &gt; div &gt; div &gt; span&#39;); 
-     112 |          browser.pause(10000);
-     113 |      }
+     120 |          browser.click(&#39;#root &gt; div &gt; header &gt; div &gt; div.css-11x9xqg.e4w71dr2 &gt; div.css-1rsu45y.e4w71dr0 &gt; div &gt; div &gt; button&#39;);
+     121 |          browser.pause(2000);
+     122 |          browser.click(&#39;body &gt; span &gt; span &gt; div &gt; div &gt; div &gt; ol &gt; li:nth-child(6) &gt; div &gt; div &gt; span&#39;); 
+     123 |          browser.pause(10000);
+     124 |      }
     ––––––––––––––––––––––––––––––––––––––
 
     </system-err>
