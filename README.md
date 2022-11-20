@@ -12,4 +12,4 @@
  coded some test cases 
  
  
- 
+ Meeting 3: Jest JS installation and setup
