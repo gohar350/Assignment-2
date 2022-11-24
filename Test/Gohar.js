@@ -65,7 +65,7 @@ And I select <y-axis>
 
         //y-axis total
         browser.click('#root > div > div > main > div > div > div.css-mypnpf.eb9z3dt6 > aside.css-1rpciof.e1e6x9or1 > div > div > div > div.flex.flex-column > div.full-height.relative.scroll-y.scroll-show.pt3.pb4 > div:nth-child(2) > div > div.flex.align-center > a');
-        browser.click('body > span.PopoverContainer.tether-element.tether-abutted.tether-abutted-left.tether-element-attached-top.tether-element-attached-left.tether-target-attached-bottom.tether-target-attached-left.PopoverContainer--open.popover.tether-enabled > span > div > div > div > div:nth-child(4) > div > span');
+        browser.click('body > span > span > div > div > div > div:nth-child(4) > div > span');
 
         //Done
         browser.click('#root > div > div > main > div > div > div.css-mypnpf.eb9z3dt6 > aside.css-1rpciof.e1e6x9or1 > div > div > button > div > div');
@@ -78,7 +78,7 @@ And I select <y-axis>
         browser.pause(10000);
     },    
 
-    "Test 2":(browser)=>{
+    "Test 3":(browser)=>{
 
 
         /*
@@ -109,13 +109,13 @@ And I select <y-axis>
          
          //Save Search
          browser.click('#root > div > div > main > div > div > div.css-2mi1c6.eb9z3dt3 > div > div.css-1mjo75b.e17ixpr11 > span');
-         browser.setValue('input[name=name','Search1');
-         browser.setValue('input[name=discription','this is the discription for test caase');
-
+         browser.setValue('input[name=name','Gohar Search');
          browser.pause(2000);
-         browser.click('#SaveQuestionModal > div.ModalBody.px4 > div > form > div.css-1rw7jxi.etf22zm0 > button.Button.Button.eyw0xx60.Button--primary.css-1sur1e6.emiw9oj2')
-         browser.click('#QuestionSavedModal > div.ModalBody.px4 > div > div > button.Button.Button--primary');7
-         browser.click('#AddToDashSelectDashModal > div.ModalBody.px4 > div > div > div > div.css-umwchj.e1u5yeuo0 > div:nth-child(2) > div')
+         browser.click('#SaveQuestionModal > div.ModalBody.px4 > div > form > div.css-1rw7jxi.etf22zm0 > button.Button.Button.eyw0xx60.Button--primary.css-1sur1e6.emiw9oj2');
+         browser.click('#QuestionSavedModal > div.ModalBody.px4 > div > div > button.Button.Button--primary');
+         browser.click('#AddToDashSelectDashModal > div.ModalBody.px4 > div > div > div > div.css-umwchj.e1u5yeuo0 > div:nth-child(2) > div');
+         browser.click('#AddToDashSelectDashModal > svg');
+         browser.pause('2000');
  
          browser.click('#root > div > header > div > div.css-11x9xqg.e4w71dr2 > div.css-1rsu45y.e4w71dr0 > div > div > button');
          browser.pause(2000);
