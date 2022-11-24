@@ -1,9 +1,28 @@
-const supertest=require('supertest')
-const request=supertest('http://localhost:3000/collection/2-gohar-butt')
+/*const supertest=require('supertest')
+const request=supertest('http://localhost:3000/api/user/current')
+curl -X 
 
-it('test case1',async done=>{
+it('test case1', async()=>{
 
-   const responce= await request.get('http://localhost:3000/question#eyJkYXRhc2V0X3F1ZXJ5Ijp7ImRhdGFiYXNlIjoxLCJxdWVyeSI6eyJzb3VyY2UtdGFibGUiOjJ9LCJ0eXBlIjoicXVlcnkifSwiZGlzcGxheSI6InRhYmxlIiwidmlzdWFsaXphdGlvbl9zZXR0aW5ncyI6e319')
-   console.log(responce.body)
    
+   const responce=await request.get('auto/dashboard/table/3')
+   console.log(responce.body);
+   
+   
+})
+*/
+
+const request = require('supertest')
+const app = require('http://localhost:3000/api/user/current')
+describe('Post Endpoints', () => {
+  it('should create a new post', async () => {
+    const res = await request(app)
+      .post('/api/posts')
+      .send({
+        userId: 1,
+        title: 'test is cool',
+      })
+    expect(res.statusCode).toEqual(201)
+    expect(res.body).toHaveProperty('post')
+  })
 })

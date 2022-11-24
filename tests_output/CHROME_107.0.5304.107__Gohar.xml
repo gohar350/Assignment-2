@@ -5,12 +5,12 @@
 
   <testsuite name="Gohar"
     errors="3" failures="0" hostname="" id="" package="Gohar" skipped="0"
-    tests="2" time="60.46" timestamp="">
+    tests="2" time="64.26" timestamp="">
   
-    <testcase name="Test 1" classname="Gohar" time="21.88" assertions="0">
+    <testcase name="Test 1" classname="Gohar" time="23.27" assertions="0">
     </testcase>
   
-    <testcase name="Test 2" classname="Gohar" time="38.58" assertions="0">
+    <testcase name="Test 2" classname="Gohar" time="40.98" assertions="0">
     <error message="An error occurred while running .click() command on &lt;body &gt; span &gt; span &gt; div &gt; div &gt; div &gt; ol &gt; li:nth-child(6) &gt; div &gt; div &gt; span&gt;: Timed out while waiting for element &#34;body &gt; span &gt; span &gt; div &gt; div &gt; div &gt; ol &gt; li:nth-child(6) &gt; div &gt; div &gt; span&#34; with &#34;css selector&#34; to be present for 5000 milliseconds." type="error"><![CDATA[
     Error
     at Object.Test 2 (D:\Github\Assignment-2\Test\Gohar.js:122:18)
