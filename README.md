@@ -49,6 +49,53 @@ Jest is a JavaScript testing framework designed to ensure correctness of any Jav
         is jest better than other api Testers:
 The test finished much faster than Jest, like because there were no variables to handle and no additions to be made. Jasmine is a powerful Javascript testing framework, especially when paired with Angular. Its testing language is a bit more intricate than Jest, which is why it's also great for backend testing
 
+#Assignment 3
+Task: 3
+Exploring Static Analysis Tools
+
+1) Linters:
+
+Opensource Github project: Adidas
+https://github.com/adidas/js-linter-configs
+
+•	The open source software uses linter config to analyze the code quality while staying under coding guidelines.
+•	Adidas configurations for the different linting tools for
+   o	Javascript
+   o	Typescript
+   o	CSS/LESS/SASS
+•	Linter configurations purpose:
+   o	Define set of rules
+   o	Validate coding standards
+   o	Version ES5 to ES9 for Javascript or Typescript
+   o	Linter tools display error if rules violated
+   o	Unless explicitly specified, does not modify code
+   o	Eslint resolves first level “nodemodules” dependencies 
+   o	Package installed using 	“npm install CONFIGURATION_PACKAGE_NAME[@VERSION] “
+   
+2) SAST:
+
+Opensource Github project: ShiftLeftSecurity
+https://github.com/ShiftLeftSecurity/sast-scan
+
+•	Security testing purpose
+•	SAST-scan detects various kinds of security flaws in application in single fast scan
+•	No need for remote server
+•	All scanners, rules and data including the vulnerability database are downloaded locally to perform the scans
+•	Automatically adds comments to PULL Requests of Github
+•	Flaws detection:
+   o	Credentials Scanning to detect accidental secret leaks
+   o	Static Analysis Security Testing (SAST) for a range of languages and frameworks
+   o	Open-source dependencies audit for known CVEs
+       - Many languages and package formats supported
+       -	OSS Risk Audit for npm
+       -	Dependency confusion checks for npm
+   o	License violation checks
+   o	Container image scanning for application CVEs (New)
+•	Supports multiple languages like ruby,php,nodejs,python sql etc
+•	A minimal setup configuration is shown below:
+       - uses: ShiftLeftSecurity/scan-action@master
+         with:
+           type: "credscan,java,depscan"
 
 
 
